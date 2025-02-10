@@ -21,7 +21,7 @@ app.use('/api/v1/user', userRouter);
 app.listen(port, async () => {
 
     await connectDB();
-    console.log(`server listenging at http://localhost${port}`);
+    console.log(`server listenging at http://localhost:${port}`);
 
 })
 
