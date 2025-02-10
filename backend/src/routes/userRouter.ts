@@ -4,7 +4,7 @@ import userLogin from "../controllers/userLogin.controller";
 
 const router = Router();
 
-router.post('resgistration', userRegistration);
-router.post('login', userLogin);
+router.post('/registration', userRegistration);
+router.post('/login', userLogin);
 
 export default router;
